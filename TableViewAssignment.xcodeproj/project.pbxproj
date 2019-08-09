@@ -12,6 +12,8 @@
 		EF46FD1022FA7967007F28FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF46FD0E22FA7967007F28FB /* Main.storyboard */; };
 		EF46FD1222FA7968007F28FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF46FD1122FA7968007F28FB /* Assets.xcassets */; };
 		EF46FD1522FA7968007F28FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF46FD1322FA7968007F28FB /* LaunchScreen.storyboard */; };
+		EF46FD1E22FA79A8007F28FB /* FriendListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46FD1C22FA79A8007F28FB /* FriendListTableViewCell.swift */; };
+		EF46FD1F22FA79A8007F28FB /* FriendListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF46FD1D22FA79A8007F28FB /* FriendListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EF46FD1122FA7968007F28FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF46FD1422FA7968007F28FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF46FD1622FA7968007F28FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF46FD1C22FA79A8007F28FB /* FriendListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListTableViewCell.swift; sourceTree = "<group>"; };
+		EF46FD1D22FA79A8007F28FB /* FriendListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				EF46FD1122FA7968007F28FB /* Assets.xcassets */,
 				EF46FD1322FA7968007F28FB /* LaunchScreen.storyboard */,
 				EF46FD1622FA7968007F28FB /* Info.plist */,
+				EF46FD1C22FA79A8007F28FB /* FriendListTableViewCell.swift */,
+				EF46FD1D22FA79A8007F28FB /* FriendListTableViewCell.xib */,
 			);
 			path = TableViewAssignment;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				EF46FD1522FA7968007F28FB /* LaunchScreen.storyboard in Resources */,
 				EF46FD1222FA7968007F28FB /* Assets.xcassets in Resources */,
 				EF46FD1022FA7967007F28FB /* Main.storyboard in Resources */,
+				EF46FD1F22FA79A8007F28FB /* FriendListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF46FD0D22FA7967007F28FB /* ViewController.swift in Sources */,
+				EF46FD1E22FA79A8007F28FB /* FriendListTableViewCell.swift in Sources */,
 				EF46FD0B22FA7967007F28FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
