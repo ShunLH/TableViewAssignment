@@ -33,7 +33,7 @@ class FriendListTableViewCell: UITableViewCell {
 		btnFollow.layer.borderWidth = 1
 		btnFollow.layer.borderColor = #colorLiteral(red: 0.1333333333, green: 0.7254901961, blue: 0.6666666667, alpha: 1)
 		btnFollow.layer.cornerRadius = 12
-		ivPicture.layer.cornerRadius = 50
+		ivPicture.layer.cornerRadius = 40
 		
     }
 
